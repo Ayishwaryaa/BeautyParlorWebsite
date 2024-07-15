@@ -1,0 +1,164 @@
+
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f8f8f8;
+                margin: 0;
+                padding: 0;
+            }
+
+            header {
+                background-color: #E3ACD5;
+                padding: 20px 0;
+                text-align: center;
+                position: relative;
+            }
+            header h1 {
+                margin: 0;
+                font-size: 2em;
+            }
+            header .sign-out {
+                position: absolute;
+                right: 20px;
+                top: 20px;
+                background-color: #ff005c;
+                color: white;
+                padding: 10px 20px;
+                text-decoration: none;
+                border-radius: 5px;
+            }
+            header .logo {
+                position: absolute;
+                left: 20px;
+                top: 20px;
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+            }
+
+            nav {
+                background-color: #F7BEDF;
+                padding: 10px 0;
+            }
+            nav ul {
+                list-style: none;
+                padding: 0;
+                text-align: center;
+            }
+            nav ul li {
+                display: inline;
+                margin: 0 15px;
+            }
+            nav ul li a {
+                text-decoration: none;
+                color: #000;
+                font-size: 1.1em;
+            }
+            nav ul li a:hover {
+                text-decoration: none;
+                color: red;
+                font-size: large;
+
+            }
+            .content {
+                padding: 20px;
+            }
+
+
+            .contact-info {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+            }
+
+            .contact-info div {
+                width: 30%;
+                text-align: center;
+                padding: 10px;
+                background-color: #f8d7f8;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+            }
+
+            .contact-info h3 {
+                background-color: #ffc0cb;
+                padding: 10px;
+                border-radius: 10px 10px 0 0;
+                margin: -10px -10px 10px -10px;
+                color: #333;
+                font-size: 20px;
+            }
+
+            .contact-info p {
+                font-size: 16px;
+                color: #666;
+            }
+
+            .query {
+                max-width: 800px;
+                margin: 20px auto;
+                background-color: #fff;
+                padding: 20px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            form {
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+
+            form div {
+                margin-bottom: 15px;
+            }
+
+            form label {
+                display: block;
+                margin-bottom: 5px;
+                font-weight: bold;
+                color: #333;
+                font-size: 16px;
+            }
+
+            form input[type="text"],
+            form input[type="email"],
+            form textarea {
+                width: 80%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 16px;
+                color: #333;
+            }
+
+            form textarea {
+                height: 100px;
+            }
+
+            form button {
+                margin-top: 10px;
+                background-color: #ff4081;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            form button:hover {
+                background-color: #e5397f;
+            }
+            footer {
+                background-color: #F7BEDF;
+                text-align: center;
+                padding: 20px;
+                margin-top: 20px;
+                position: relative;
+            }
+            footer .contact-icons {
+                position: absolute;
+                right: 20px;
+                top: 20px;
+            }
+            footer .contact-icons img {
+                width: 30px;
+                margin-left: 10px;
+            }
+

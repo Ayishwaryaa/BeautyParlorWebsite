@@ -1,0 +1,151 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #E3ACD5;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        header .sign-out {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            background-color: #ff005c;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        header .logo {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+        nav {
+            background-color: #F7BEDF;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #000;
+            font-size: 1.1em;
+        }
+        nav ul li a:hover {
+            text-decoration: none;
+            color: red;
+            font-size: large;
+
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .about-section {
+            display: flex;
+            /*            margin-top: 20px;*/
+        }
+
+        .about-video {
+            flex: 1;
+        }
+
+        .about-text {
+            flex: 1;
+
+
+        }
+
+        .about-text h3 {
+            color: #555;
+        }
+
+        .about-text p {
+            color: #777;
+            font-size: 16px;
+
+        }
+
+        .experts-section {
+            margin-top: 40px;
+        }
+
+        .experts-section h3 {
+            color: #555;
+            text-align: center;
+        }
+
+        .experts {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .expert-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+        }
+
+        .expert-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+
+        .expert-card h4 {
+            margin: 10px 0;
+            color: #555;
+        }
+
+        .expert-card p {
+            color: #777;
+            font-size: 14px;
+        }
+        footer {
+            background-color: #F7BEDF;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            position: relative;
+        }
+        footer .contact-icons {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+        footer .contact-icons img {
+            width: 30px;
+            margin-left: 10px;
+        }

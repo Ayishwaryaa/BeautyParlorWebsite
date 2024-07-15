@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+}
+
+.service h3 {
+    margin: 10px 0;
+}
+
+.service p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #E3ACD5;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.nav {
+    margin-top: 10px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+
+
+h2 {
+    color: #333;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+.service-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.service-card h3 {
+    margin: 10px 0;
+    color: #555;
+}
+
+.service-card p {
+    color: #777;
+    font-size: 14px;
+}
+
+.service-card button {
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.service-card button:hover {
+    background-color: #e5397f;
+}
+
+.service-details {
+    display: flex;
+    margin-top: 20px;
+}
+
+.service-details img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.service-details div {
+    max-width: 600px;
+}
+
+.service-details h3 {
+    color: #555;
+}
+
+.service-details p {
+    color: #777;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.service-details button {
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.service-details button:hover {
+    background-color: #e5397f;
+}
